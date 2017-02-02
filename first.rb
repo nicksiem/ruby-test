@@ -9,4 +9,4 @@ print "Enter number of cups: "
 cups = gets.chomp
 cups = cups.to_i  #convert to integer
 ounces = cups * 8
-puts "That is #{ounces}"
+puts "That is #{ounces} ounces"
